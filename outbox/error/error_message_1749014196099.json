@@ -1,0 +1,6 @@
+{
+  "file": "message_1749014196099.json",
+  "error": "ENOENT: no such file or directory, open '/home/ec2-user/bot/outbox/message_1749014196099.json'",
+  "timestamp": "2025-06-04T15:24:19.928Z",
+  "status": "parse_error"
+}

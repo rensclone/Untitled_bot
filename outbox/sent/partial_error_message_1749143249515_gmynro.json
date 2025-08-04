@@ -1,0 +1,32 @@
+{
+  "targetNumber": "6285719932314@s.whatsapp.net",
+  "originalNumber": "085719932314",
+  "message": "NETFLIX SHARED 1 Bulan @rendzal\n========================================\nEmail: rendyzal@gmail.com\nPassword: 1234\nProfile : A\nPin : 123\nPembelian : 06 Juni 2025\nExpired : 06 Juli 2025\n=============SYARAT & KETENTUAN ============\n- 1 Profile Hanya 1 Device\n- Dilarang mengganti email / password akun.\n- Dilarang mengotak - atik data akun\n- Dilarang Menggunakan Profile Orang Lain\n- Garansi paling lambat 2x24 jam\n( Jika ketahuan melanggar syarat & ketentuan akun akan stop dan profile akan di delete tanpa refund. )\n========================================",
+  "timestamp": "2025-06-05T17:07:29.515Z",
+  "timestampMs": 1749143249515,
+  "status": "sent",
+  "createdAt": "2025-06-05T17:07:29.515Z",
+  "source": "api",
+  "sentAt": "2025-06-05T17:07:31.789Z",
+  "actualTarget": "6285719932314@s.whatsapp.net",
+  "processedAt": "2025-06-05T17:07:31.789Z",
+  "uniqueKey": "085719932314_1749143249515_TkVURkxJWC",
+  "sendResult": {
+    "key": {
+      "remoteJid": "6285719932314@s.whatsapp.net",
+      "fromMe": true,
+      "id": "3EB0190B9F48EE41287A65"
+    },
+    "message": {
+      "extendedTextMessage": {
+        "text": "NETFLIX SHARED 1 Bulan @rendzal\n========================================\nEmail: rendyzal@gmail.com\nPassword: 1234\nProfile : A\nPin : 123\nPembelian : 06 Juni 2025\nExpired : 06 Juli 2025\n=============SYARAT & KETENTUAN ============\n- 1 Profile Hanya 1 Device\n- Dilarang mengganti email / password akun.\n- Dilarang mengotak - atik data akun\n- Dilarang Menggunakan Profile Orang Lain\n- Garansi paling lambat 2x24 jam\n( Jika ketahuan melanggar syarat & ketentuan akun akan stop dan profile akan di delete tanpa refund. )\n========================================"
+      }
+    },
+    "messageTimestamp": "1749143251",
+    "status": "PENDING"
+  },
+  "statusUpdateError": "Failed to update database status",
+  "databaseStatus": "failed",
+  "historyStatus": "updated",
+  "finalStatus": "sent_but_db_error"
+}

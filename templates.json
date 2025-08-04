@@ -1,0 +1,81 @@
+{
+  "Netflix 1 bulan": {
+    "keywords": [
+      "tanggal",
+      "expired"
+    ],
+    "duration": {
+      "type": "bulan",
+      "value": 1
+    },
+    "format": "NETFLIX SHARED 1 Bulan @rendzal\n========================================\nEmail: {email}\nPassword: {password}\nProfile : {profile}\nPin : {pin}\nPembelian : {tanggal}\nExpired : {expired}\n=============SYARAT & KETENTUAN ============\n- 1 Profile Hanya 1 Device\n- Dilarang mengganti email / password akun.\n- Dilarang mengotak - atik data akun\n- Dilarang Menggunakan Profile Orang Lain\n- Garansi paling lambat 2x24 jam\n( Jika ketahuan melanggar syarat & ketentuan akun akan stop dan profile akan di delete tanpa refund. )\n========================================",
+    "updatedAt": "2025-04-10T16:24:19.900Z"
+  },
+  "Netflix 2 bulan": {
+    "keywords": [
+      "tanggal",
+      "expired"
+    ],
+    "duration": {
+      "type": "bulan",
+      "value": 2
+    },
+    "format": "NETFLIX SHARED 2 Bulan @rendzal\n========================================\nEmail: {email}\nPassword: {password}\nProfile : {profile}\nPin : {pin}\nPembelian : {tanggal}\nExpired : {expired}\n=============SYARAT & KETENTUAN ============\n- 1 Profile Hanya 1 Device\n- Dilarang mengganti email / password akun.\n- Dilarang mengotak - atik data akun\n- Dilarang Menggunakan Profile Orang Lain\n- Garansi paling lambat 2x24 jam\n( Jika ketahuan melanggar syarat & ketentuan akun akan stop dan profile akan di delete tanpa refund. )\n========================================",
+    "updatedAt": "2025-04-10T16:24:54.808Z"
+  },
+  "Capcut pro 14 Hari": {
+    "keywords": [
+      "email",
+      "password",
+      "tanggal",
+      "expired"
+    ],
+    "duration": {
+      "type": "hari",
+      "value": 14
+    },
+    "format": "CAPCUT PRO 14 HARI @rendzal\n========================================\nEmail: {email}\nPassword: {password}\nPembelian : {tanggal}\nExpired : {expired}\n=============SYARAT & KETENTUAN ============\n- Tidak menerima komplain limit login setelah berhasil login\n- 25 - 28 hari sudah termasuk hitungan 1 bulan\n- 13 - 14 hari sudah termasuk hitungan 2 minggu\n- 6 - 7 hari sudah termasuk hitungan 1 minggu\n========================================",
+    "updatedAt": "2025-04-12T05:11:36.930Z"
+  },
+  "VIU 1 Tahun": {
+    "keywords": [
+      "email",
+      "password",
+      "tanggal",
+      "expired"
+    ],
+    "duration": {
+      "type": "tahun",
+      "value": 1
+    },
+    "format": "VIU 1 TAHUN @rendzal\n========================================\nEmail: {email}\nPassword: {password}\nPembelian : {tanggal}\nExpired : {expired}\n=============SYARAT & KETENTUAN ============\n- Akun Dari Seller\n- Garansi Backfree\n- All Device (Bisa Di Tv)\n========================================",
+    "updatedAt": "2025-04-17T12:20:57.590Z"
+  },
+  "CANVA MEMBER 1 BULAN": {
+    "keywords": [
+      "email",
+      "tanggal",
+      "expired"
+    ],
+    "duration": {
+      "type": "bulan",
+      "value": 1
+    },
+    "format": "NETFLIX SHARED 1 Bulan @rendzal\n========================================\nLink: https://www.canva.com/brand/join?token=NRuKdwqADwO0Ne_cGmuBdA&referrer=team-invite\nPembelian : {tanggal}\nExpired : {expired}\n=============SYARAT & KETENTUAN ============\n- Butuh Email Pembeli\n- Bergaransi\n- Stok Unlimited\n- Garansi Paling Lambat 2x24 Jam)\n========================================",
+    "updatedAt": "2025-04-23T13:54:06.611Z"
+  },
+  "VIDIO PLATINUM 1 Bulan": {
+    "keywords": [
+      "email",
+      "password",
+      "tanggal",
+      "expired"
+    ],
+    "duration": {
+      "type": "bulan",
+      "value": 1
+    },
+    "format": "VIDIO PLATINUM 1 Bulan @rendzal\n========================================\nEmail: {email}\nPassword: {password}\nPembelian : {tanggal}\nExpired : {expired}\n=============SYARAT & KETENTUAN ============\n- Dijual Sharing? Boleh 2 user asal tidak lebih. Rawan banned! Jangan maksain lebih dari 2 user!\n- garansi apabila backfree, tidak untuk kebanned / hack / limit\n- Wajib Change Pass, agar tidak terjadi kesalahpahaman\n- Ingat! Email diakun tsb tidak aktif.  Jadi hati2 pada saat jual sharing karna berpotensi password diganti sm buyyer\n========================================",
+    "updatedAt": "2025-05-22T10:14:22.221Z"
+  }
+}

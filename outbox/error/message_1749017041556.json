@@ -1,0 +1,9 @@
+{
+  "targetNumber": "628990663087",
+  "message": "NETFLIX SHARED 1 Bulan @rendzal\n========================================\nEmail: rendy@gmail.com\nPassword: aku123\nProfile : D\nPin : 1234\nPembelian : 04 Juni 2025\nExpired : 04 Juli 2025\n=============SYARAT & KETENTUAN ============\n- 1 Profile Hanya 1 Device\n- Dilarang mengganti email / password akun.\n- Dilarang mengotak - atik data akun\n- Dilarang Menggunakan Profile Orang Lain\n- Garansi paling lambat 2x24 jam\n( Jika ketahuan melanggar syarat & ketentuan akun akan stop dan profile akan di delete tanpa refund. )\n========================================",
+  "timestamp": "2025-06-04T06:04:01.556Z",
+  "status": "error",
+  "sentAt": "2025-06-04T15:24:07.293Z",
+  "error": "ENOENT: no such file or directory, unlink '/home/ec2-user/bot/outbox/message_1749017041556.json'",
+  "lastAttempt": "2025-06-04T15:24:07.296Z"
+}

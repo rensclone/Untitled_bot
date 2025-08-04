@@ -1,0 +1,33 @@
+{
+  "targetNumber": "62895379089030@s.whatsapp.net",
+  "originalNumber": "0895379089030",
+  "message": "NETFLIX SHARED 1 Bulan @rendzal\n========================================\nEmail: rendyQ12345zQ@gmail.com\nPassword: AKuM123\nProfile : F\nPin : 1234\nPembelian : 05 Juni 2025\nExpired : 05 Juli 2025\n=============SYARAT & KETENTUAN ============\n- 1 Profile Hanya 1 Device\n- Dilarang mengganti email / password akun.\n- Dilarang mengotak - atik data akun\n- Dilarang Menggunakan Profile Orang Lain\n- Garansi paling lambat 2x24 jam\n( Jika ketahuan melanggar syarat & ketentuan akun akan stop dan profile akan di delete tanpa refund. )\n========================================",
+  "timestamp": "2025-06-05T10:19:23.215Z",
+  "timestampMs": 1749118763215,
+  "status": "sent",
+  "createdAt": "2025-06-05T10:19:23.215Z",
+  "source": "api",
+  "sentAt": "2025-06-05T10:19:25.802Z",
+  "actualTarget": "62895379089030@s.whatsapp.net",
+  "processedAt": "2025-06-05T10:19:25.802Z",
+  "uniqueKey": "0895379089030_1749118763215_TkVURkxJWC",
+  "sendResult": {
+    "key": {
+      "remoteJid": "62895379089030@s.whatsapp.net",
+      "fromMe": true,
+      "id": "3EB0CE5C80F2FDA44C355B"
+    },
+    "message": {
+      "extendedTextMessage": {
+        "text": "NETFLIX SHARED 1 Bulan @rendzal\n========================================\nEmail: rendyQ12345zQ@gmail.com\nPassword: AKuM123\nProfile : F\nPin : 1234\nPembelian : 05 Juni 2025\nExpired : 05 Juli 2025\n=============SYARAT & KETENTUAN ============\n- 1 Profile Hanya 1 Device\n- Dilarang mengganti email / password akun.\n- Dilarang mengotak - atik data akun\n- Dilarang Menggunakan Profile Orang Lain\n- Garansi paling lambat 2x24 jam\n( Jika ketahuan melanggar syarat & ketentuan akun akan stop dan profile akan di delete tanpa refund. )\n========================================"
+      }
+    },
+    "messageTimestamp": "1749118765",
+    "status": "PENDING"
+  },
+  "statusUpdateError": "Failed to update database status",
+  "historyUpdateError": "Failed to update history status",
+  "databaseStatus": "failed",
+  "historyStatus": "failed",
+  "finalStatus": "sent_but_all_updates_failed"
+}

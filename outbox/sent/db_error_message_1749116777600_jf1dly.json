@@ -1,0 +1,32 @@
+{
+  "targetNumber": "62895379089030@s.whatsapp.net",
+  "originalNumber": "62895379089030",
+  "message": "NETFLIX SHARED 1 Bulan @rendzal\n========================================\nEmail: rendyQzQ211@gmail.com\nPassword: AKuM123\nProfile : F\nPin : 1234\nPembelian : 05 Juni 2025\nExpired : 05 Juli 2025\n=============SYARAT & KETENTUAN ============\n- 1 Profile Hanya 1 Device\n- Dilarang mengganti email / password akun.\n- Dilarang mengotak - atik data akun\n- Dilarang Menggunakan Profile Orang Lain\n- Garansi paling lambat 2x24 jam\n( Jika ketahuan melanggar syarat & ketentuan akun akan stop dan profile akan di delete tanpa refund. )\n========================================",
+  "timestamp": "2025-06-05T09:46:17.600Z",
+  "timestampMs": 1749116777600,
+  "status": "sent",
+  "createdAt": "2025-06-05T09:46:17.600Z",
+  "source": "api",
+  "sentAt": "2025-06-05T09:46:20.392Z",
+  "actualTarget": "62895379089030@s.whatsapp.net",
+  "processedAt": "2025-06-05T09:46:20.392Z",
+  "uniqueKey": "62895379089030_1749116777600_TkVURkxJWC",
+  "sendResult": {
+    "key": {
+      "remoteJid": "62895379089030@s.whatsapp.net",
+      "fromMe": true,
+      "id": "3EB0B7A54FE280CA43B6CD"
+    },
+    "message": {
+      "extendedTextMessage": {
+        "text": "NETFLIX SHARED 1 Bulan @rendzal\n========================================\nEmail: rendyQzQ211@gmail.com\nPassword: AKuM123\nProfile : F\nPin : 1234\nPembelian : 05 Juni 2025\nExpired : 05 Juli 2025\n=============SYARAT & KETENTUAN ============\n- 1 Profile Hanya 1 Device\n- Dilarang mengganti email / password akun.\n- Dilarang mengotak - atik data akun\n- Dilarang Menggunakan Profile Orang Lain\n- Garansi paling lambat 2x24 jam\n( Jika ketahuan melanggar syarat & ketentuan akun akan stop dan profile akan di delete tanpa refund. )\n========================================"
+      }
+    },
+    "messageTimestamp": "1749116780",
+    "status": "PENDING"
+  },
+  "statusUpdateError": "Failed to update database status",
+  "criticalError": "Message sent but database status update failed",
+  "databaseStatus": "failed",
+  "finalStatus": "sent_but_db_error"
+}

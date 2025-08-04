@@ -1,0 +1,118 @@
+{
+  "messages": [
+    {
+      "targetNumber": "0895379089030",
+      "message": "NETFLIX SHARED 1 Bulan @rendzal\n========================================\nEmail: rendybismillah2Q@gmail.com\nPassword: AKuM123\nProfile : F\nPin : 1234\nPembelian : 05 Juni 2025\nExpired : 05 Juli 2025\n=============SYARAT & KETENTUAN ============\n- 1 Profile Hanya 1 Device\n- Dilarang mengganti email / password akun.\n- Dilarang mengotak - atik data akun\n- Dilarang Menggunakan Profile Orang Lain\n- Garansi paling lambat 2x24 jam\n( Jika ketahuan melanggar syarat & ketentuan akun akan stop dan profile akan di delete tanpa refund. )\n========================================",
+      "template": "Netflix 1 bulan",
+      "status": "sent",
+      "timestamp": "2025-06-05T10:29:17.350Z"
+    },
+    {
+      "targetNumber": "08990663087",
+      "message": "NETFLIX SHARED 1 Bulan @rendzal\n========================================\nEmail: rendy@gmail.com\nPassword: 123\nProfile : A\nPin : 1234\nPembelian : 06 Juni 2025\nExpired : 06 Juli 2025\n=============SYARAT & KETENTUAN ============\n- 1 Profile Hanya 1 Device\n- Dilarang mengganti email / password akun.\n- Dilarang mengotak - atik data akun\n- Dilarang Menggunakan Profile Orang Lain\n- Garansi paling lambat 2x24 jam\n( Jika ketahuan melanggar syarat & ketentuan akun akan stop dan profile akan di delete tanpa refund. )\n========================================",
+      "template": "Netflix 1 bulan",
+      "status": "error",
+      "timestamp": "2025-06-05T17:01:02.136Z",
+      "updatedAt": "2025-06-05T17:01:02.171Z",
+      "statusUpdatedBy": "outbox-processor"
+    },
+    {
+      "targetNumber": "628990663087",
+      "message": "NETFLIX SHARED 1 Bulan @rendzal\n========================================\nEmail: rendy@gmail.com\nPassword: 123\nProfile : A\nPin : 1234\nPembelian : 06 Juni 2025\nExpired : 06 Juli 2025\n=============SYARAT & KETENTUAN ============\n- 1 Profile Hanya 1 Device\n- Dilarang mengganti email / password akun.\n- Dilarang mengotak - atik data akun\n- Dilarang Menggunakan Profile Orang Lain\n- Garansi paling lambat 2x24 jam\n( Jika ketahuan melanggar syarat & ketentuan akun akan stop dan profile akan di delete tanpa refund. )\n========================================",
+      "template": "Netflix 1 bulan",
+      "status": "error",
+      "timestamp": "2025-06-05T17:01:59.938Z",
+      "updatedAt": "2025-06-05T17:02:00.749Z",
+      "statusUpdatedBy": "outbox-processor"
+    },
+    {
+      "targetNumber": "628990663087",
+      "message": "NETFLIX SHARED 1 Bulan @rendzal\n========================================\nEmail: rendyzal@gmail.com\nPassword: 1234\nProfile : A\nPin : 123\nPembelian : 06 Juni 2025\nExpired : 06 Juli 2025\n=============SYARAT & KETENTUAN ============\n- 1 Profile Hanya 1 Device\n- Dilarang mengganti email / password akun.\n- Dilarang mengotak - atik data akun\n- Dilarang Menggunakan Profile Orang Lain\n- Garansi paling lambat 2x24 jam\n( Jika ketahuan melanggar syarat & ketentuan akun akan stop dan profile akan di delete tanpa refund. )\n========================================",
+      "template": "Netflix 1 bulan",
+      "status": "error",
+      "timestamp": "2025-06-05T17:03:53.869Z",
+      "updatedAt": "2025-06-05T17:03:54.782Z",
+      "statusUpdatedBy": "outbox-processor"
+    },
+    {
+      "targetNumber": "0895379089030",
+      "message": "NETFLIX SHARED 1 Bulan @rendzal\n========================================\nEmail: rendyzal@gmail.com\nPassword: 1234\nProfile : A\nPin : 123\nPembelian : 06 Juni 2025\nExpired : 06 Juli 2025\n=============SYARAT & KETENTUAN ============\n- 1 Profile Hanya 1 Device\n- Dilarang mengganti email / password akun.\n- Dilarang mengotak - atik data akun\n- Dilarang Menggunakan Profile Orang Lain\n- Garansi paling lambat 2x24 jam\n( Jika ketahuan melanggar syarat & ketentuan akun akan stop dan profile akan di delete tanpa refund. )\n========================================",
+      "template": "Netflix 1 bulan",
+      "status": "sent",
+      "timestamp": "2025-06-05T17:04:18.195Z",
+      "updatedAt": "2025-06-05T17:04:19.773Z",
+      "statusUpdatedBy": "outbox-processor",
+      "sentAt": "2025-06-05T17:04:13.769Z",
+      "actualTarget": "62895379089030@s.whatsapp.net"
+    },
+    {
+      "targetNumber": "085719932314",
+      "message": "NETFLIX SHARED 1 Bulan @rendzal\n========================================\nEmail: rendyzal@gmail.com\nPassword: 1234\nProfile : A\nPin : 123\nPembelian : 06 Juni 2025\nExpired : 06 Juli 2025\n=============SYARAT & KETENTUAN ============\n- 1 Profile Hanya 1 Device\n- Dilarang mengganti email / password akun.\n- Dilarang mengotak - atik data akun\n- Dilarang Menggunakan Profile Orang Lain\n- Garansi paling lambat 2x24 jam\n( Jika ketahuan melanggar syarat & ketentuan akun akan stop dan profile akan di delete tanpa refund. )\n========================================",
+      "template": "Netflix 1 bulan",
+      "status": "error",
+      "timestamp": "2025-06-05T17:07:37.140Z",
+      "updatedAt": "2025-06-05T17:07:38.235Z",
+      "statusUpdatedBy": "outbox-processor",
+      "sentAt": "2025-06-05T17:07:31.789Z",
+      "actualTarget": "6285719932314@s.whatsapp.net"
+    },
+    {
+      "targetNumber": "628990663087",
+      "message": "NETFLIX SHARED 1 Bulan @rendzal\n========================================\nEmail: rendy@gmail.com\nPassword: aku123\nProfile : G\nPin : 1234\nPembelian : 06 Juni 2025\nExpired : 06 Juli 2025\n=============SYARAT & KETENTUAN ============\n- 1 Profile Hanya 1 Device\n- Dilarang mengganti email / password akun.\n- Dilarang mengotak - atik data akun\n- Dilarang Menggunakan Profile Orang Lain\n- Garansi paling lambat 2x24 jam\n( Jika ketahuan melanggar syarat & ketentuan akun akan stop dan profile akan di delete tanpa refund. )\n========================================",
+      "template": "Netflix 1 bulan",
+      "status": "error",
+      "timestamp": "2025-06-05T17:16:32.652Z",
+      "updatedAt": "2025-06-05T17:16:33.881Z",
+      "statusUpdatedBy": "outbox-processor"
+    },
+    {
+      "targetNumber": "628990663087",
+      "message": "NETFLIX SHARED 1 Bulan @rendzal\n========================================\nEmail: lingga@gmail.com\nPassword: Lingtot69\nProfile : hentai\nPin : 6969\nPembelian : 06 Juni 2025\nExpired : 06 Juli 2025\n=============SYARAT & KETENTUAN ============\n- 1 Profile Hanya 1 Device\n- Dilarang mengganti email / password akun.\n- Dilarang mengotak - atik data akun\n- Dilarang Menggunakan Profile Orang Lain\n- Garansi paling lambat 2x24 jam\n( Jika ketahuan melanggar syarat & ketentuan akun akan stop dan profile akan di delete tanpa refund. )\n========================================",
+      "template": "Netflix 1 bulan",
+      "status": "error",
+      "timestamp": "2025-06-05T17:19:01.392Z",
+      "updatedAt": "2025-06-05T17:19:02.336Z",
+      "statusUpdatedBy": "outbox-processor",
+      "sentAt": "2025-06-05T17:18:55.849Z",
+      "actualTarget": "628990663087@s.whatsapp.net"
+    },
+    {
+      "targetNumber": "628990663087",
+      "message": "NETFLIX SHARED 1 Bulan @rendzal\n========================================\nEmail: lingga@gmail.com\nPassword: Lingtot69\nProfile : hentai\nPin : 6969\nPembelian : 06 Juni 2025\nExpired : 06 Juli 2025\n=============SYARAT & KETENTUAN ============\n- 1 Profile Hanya 1 Device\n- Dilarang mengganti email / password akun.\n- Dilarang mengotak - atik data akun\n- Dilarang Menggunakan Profile Orang Lain\n- Garansi paling lambat 2x24 jam\n( Jika ketahuan melanggar syarat & ketentuan akun akan stop dan profile akan di delete tanpa refund. )\n========================================",
+      "template": "Netflix 1 bulan",
+      "status": "sent",
+      "timestamp": "2025-06-05T17:26:35.452Z"
+    },
+    {
+      "targetNumber": "0895379089030",
+      "message": "NETFLIX SHARED 1 Bulan @rendzal\n========================================\nEmail: lingga@gmail.com\nPassword: Lingtot69\nProfile : hentai\nPin : 6969\nPembelian : 06 Juni 2025\nExpired : 06 Juli 2025\n=============SYARAT & KETENTUAN ============\n- 1 Profile Hanya 1 Device\n- Dilarang mengganti email / password akun.\n- Dilarang mengotak - atik data akun\n- Dilarang Menggunakan Profile Orang Lain\n- Garansi paling lambat 2x24 jam\n( Jika ketahuan melanggar syarat & ketentuan akun akan stop dan profile akan di delete tanpa refund. )\n========================================",
+      "template": "Netflix 1 bulan",
+      "status": "sent",
+      "timestamp": "2025-06-05T17:27:18.618Z",
+      "updatedAt": "2025-06-05T17:27:19.935Z",
+      "statusUpdatedBy": "outbox-processor",
+      "sentAt": "2025-06-05T17:27:13.929Z",
+      "actualTarget": "62895379089030@s.whatsapp.net"
+    },
+    {
+      "targetNumber": "08996350950",
+      "message": "NETFLIX SHARED 1 Bulan @rendzal\n========================================\nEmail: rendy@gmail.com\nPassword: teshungkul\nProfile : C\nPin : 6969\nPembelian : 06 Juni 2025\nExpired : 06 Juli 2025\n=============SYARAT & KETENTUAN ============\n- 1 Profile Hanya 1 Device\n- Dilarang mengganti email / password akun.\n- Dilarang mengotak - atik data akun\n- Dilarang Menggunakan Profile Orang Lain\n- Garansi paling lambat 2x24 jam\n( Jika ketahuan melanggar syarat & ketentuan akun akan stop dan profile akan di delete tanpa refund. )\n========================================",
+      "template": "Netflix 1 bulan",
+      "status": "error",
+      "timestamp": "2025-06-05T17:34:44.774Z",
+      "updatedAt": "2025-06-05T17:34:46.026Z",
+      "statusUpdatedBy": "outbox-processor"
+    },
+    {
+      "targetNumber": "08995666900",
+      "message": "NETFLIX SHARED 1 Bulan @rendzal\n========================================\nEmail: rendy@gmail.com\nPassword: teshungkul\nProfile : C\nPin : 6969\nPembelian : 06 Juni 2025\nExpired : 06 Juli 2025\n=============SYARAT & KETENTUAN ============\n- 1 Profile Hanya 1 Device\n- Dilarang mengganti email / password akun.\n- Dilarang mengotak - atik data akun\n- Dilarang Menggunakan Profile Orang Lain\n- Garansi paling lambat 2x24 jam\n( Jika ketahuan melanggar syarat & ketentuan akun akan stop dan profile akan di delete tanpa refund. )\n========================================",
+      "template": "Netflix 1 bulan",
+      "status": "sent",
+      "timestamp": "2025-06-05T17:42:09.484Z",
+      "updatedAt": "2025-06-05T17:42:11.462Z",
+      "statusUpdatedBy": "outbox-processor",
+      "sentAt": "2025-06-05T17:42:05.449Z",
+      "actualTarget": "628995666900@s.whatsapp.net"
+    }
+  ]
+}

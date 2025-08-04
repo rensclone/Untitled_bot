@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dashboard - UNTITLED STORE</title>
+  <link rel="stylesheet" href="css/dashboard.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+  <div class="sidebar">
+    <div class="sidebar-header">
+      <div class="logo">
+        <i class="fab fa-whatsapp"></i>
+        <span>UNTITLED STORE</span>
+      </div>
+      <button class="sidebar-toggle" id="sidebarToggle">
+        <i class="fas fa-bars"></i>
+      </button>
+    </div>
+    <div class="sidebar-menu">
+      <a href="#" class="sidebar-link active" data-tab="bot-control">
+        <i class="fas fa-robot"></i>
+        <span>Bot Control</span>
+      </a>
+      <a href="#" class="sidebar-link" data-tab="template-editor">
+        <i class="fas fa-edit"></i>
+        <span>Template Pesan</span>
+      </a>
+      <a href="#" class="sidebar-link" data-tab="template-list">
+        <i class="fas fa-list-alt"></i>
+        <span>Daftar Template</span>
+      </a>
+      <a href="#" class="sidebar-link" data-tab="message-history">
+        <i class="fas fa-history"></i>
+        <span>History Pesan</span>
+      </a>
+    </div>
+    <div class="sidebar-footer">
+      <button id="logoutBtn" class="logout-btn">
+        <i class="fas fa-sign-out-alt"></i>
+        <span>Logout</span>
+      </button>
+    </div>
+  </div>
+
+  <div class="main-content">
+    <header class="dashboard-header">
+      <div class="header-title">
+        <h1>Dashboard WhatsApp Bot</h1>
+        <p class="subtitle">UNTITLED STORE Management System</p>
+      </div>
+      <div class="status-container">
+        <div id="statusText" class="status-badge">Memuat status bot...</div>
+        <button id="toggleBtn" class="action-btn">Loading...</button>
+      </div>
+    </header>
+
+    <div class="tab-content">
+      <div id="bot-control" class="tab-panel active">
+        <div class="card control-panel">
+          <div class="card-header">
+            <h2><i class="fas fa-robot"></i> Kontrol Bot WhatsApp</h2>
+          </div>
+          <div class="card-body">
+            <p>Gunakan tombol di atas untuk menyalakan atau mematikan bot WhatsApp.</p>
+            <div class="bot-info">
+              <div class="info-item">
+                <span class="label">Status:</span>
+                <span id="botStatusDetail" class="status-value">Memuat...</span>
+              </div>
+              <div class="system-stats">
+                <div class="stat-item">
+                  <i class="fas fa-microchip"></i>
+                  <span>CPU: <span id="cpuUsage">0%</span></span>
+                </div>
+                <div class="stat-item">
+                  <i class="fas fa-memory"></i>
+                  <span>RAM: <span id="ramUsage">0%</span></span>
+                </div>
+                <div class="stat-item">
+                  <i class="fas fa-clock"></i>
+                  <span>Uptime: <span id="uptime">0m</span></span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div id="template-editor" class="tab-panel">
+        <div class="card template-section">
+          <div class="card-header">
+            <h2><i class="fas fa-edit"></i> Ubah Template Pesan</h2>
+          </div>
+          <div class="card-body">
+            <div class="template-container">
+              <div class="input-section card-inner">
+                <h3>Format Input</h3>
+                <div class="form-group">
+                  <label for="templateName">Nama Template:</label>
+                  <input type="text" id="templateName" placeholder="Misal: Netflix" required>
+                </div>
+                
+                <div class="form-group">
+                  <label for="durationType">Jenis Durasi:</label>
+                  <div class="select-wrapper">
+                    <select id="durationType" required>
+                      <option value="">Pilih Jenis Durasi</option>
+                      <option value="hari">Hari</option>
+                      <option value="bulan">Bulan</option>
+                      <option value="tahun">Tahun</option>
+                    </select>
+                    <i class="fas fa-chevron-down"></i>
+                  </div>
+                </div>
+                
+                <div class="form-group">
+                  <label for="durationValue">Jumlah Durasi:</label>
+                  <input type="number" id="durationValue" placeholder="Misal: 1" min="1" required>
+                </div>
+                
+                <div class="form-group full-width">
+                  <label for="sourceText">Teks Sumber (copy paste teks asli):</label>
+                  <textarea id="sourceText" rows="10" placeholder="Paste teks sumber di sini untuk mengekstrak kata kunci secara otomatis" required></textarea>
+                  <button type="button" id="extractKeysBtn" class="btn-secondary">
+                    <i class="fas fa-key"></i> Ekstrak Kata Kunci
+                  </button>
+                </div>
+              </div>
+              
+              <div class="output-section card-inner">
+                <h3>Format Output</h3>
+                <div class="form-group">
+                  <label for="detectedKeys">Kata Kunci Terdeteksi:</label>
+                  <div id="keywordsContainer" class="keywords-container"></div>
+                </div>
+                
+                <div class="form-group full-width">
+                  <label for="templateBody">Format Template Output:</label>
+                  <textarea id="templateBody" rows="12" placeholder="Tulis format template output dengan {email}, {password}, {profile}, {pin}, {tanggal}, {expired}, dll." required></textarea>
+                </div>
+                
+                <div class="preview-container">
+                  <h4><i class="fas fa-eye"></i> Preview Hasil:</h4>
+                  <div id="previewResult" class="preview-box">Hasil akan ditampilkan di sini...</div>
+                </div>
+                
+                <div class="send-message-form">
+                  <div class="form-group">
+                    <label for="targetNumber"><i class="fab fa-whatsapp"></i> Nomer WhatsApp Tujuan</label>
+                    <div class="input-with-button">
+                      <input type="text" id="targetNumber" placeholder="Contoh: 628123456789 (tanpa awalan +)">
+                      <button type="button" id="pasteBtn" title="paste dari clipboard" class="icon-btn">
+                        <i class="fas fa-paste"></i>
+                      </button>
+                    </div>
+                  </div>                
+                </div>
+
+                <div class="action-buttons">
+                  <button type="button" id="copyBtn" class="btn-secondary">
+                    <i class="fas fa-copy"></i> Salin Teks
+                  </button>
+                  <button type="button" id="previewBtn" class="btn-secondary">
+                    <i class="fas fa-eye"></i> Preview
+                  </button>
+                  <button type="button" id="sendMessageBtn" class="send-btn">
+                    <i class="fab fa-whatsapp"></i> Kirim Pesan
+                  </button>
+                  <button type="button" id="saveTemplateBtn" class="save-btn">
+                    <i class="fas fa-save"></i> Simpan Template
+                  </button>
+                </div>
+                <p id="templateMsg" class="message"></p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div id="template-list" class="tab-panel">
+        <div class="card template-list-section">
+          <div class="card-header">
+            <h2><i class="fas fa-list-alt"></i> Daftar Template Tersimpan</h2>
+            <div class="search-box">
+              <i class="fas fa-search"></i>
+              <input type="text" id="searchTemplate" placeholder="Cari template...">
+            </div>
+          </div>
+          <div class="card-body">
+            <div class="template-list-container" id="templateListContainer">
+              <p class="loading-text"><i class="fas fa-spinner fa-spin"></i> Memuat daftar template...</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div id="message-history" class="tab-panel">
+        <div class="card history-section">
+          <div class="card-header">
+            <h2><i class="fas fa-history"></i> History Pesan Terkirim</h2>
+            <div class="history-controls">
+              <div class="date-filter">
+                <label for="historyDateFilter">Filter Tanggal:</label>
+                <input type="date" id="historyDateFilter">
+                <button id="filterHistoryBtn" class="filter-btn">
+                  <i class="fas fa-filter"></i> Filter
+                </button>
+              </div>
+            </div>
+          </div>
+          <div class="card-body">
+            <div class="history-container" id="historyContainer">
+              <p class="loading-text"><i class="fas fa-spinner fa-spin"></i> Memuat history pesan...</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="js/dashboard.js"></script>
+  <script>
+    // Sidebar toggle functionality with updated hamburger menu
+    document.addEventListener('DOMContentLoaded', function() {
+      const sidebarToggle = document.getElementById('sidebarToggle');
+      
+      // Replace the icon with custom hamburger menu
+      sidebarToggle.innerHTML = `
+        <div class="hamburger-menu">
+          <span></span>
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+      `;
+      
+      sidebarToggle.addEventListener('click', function() {
+        document.body.classList.toggle('sidebar-collapsed');
+      });
+      
+      // Tab switching
+      document.querySelectorAll('.sidebar-link').forEach(link => {
+        link.addEventListener('click', function(e) {
+          e.preventDefault();
+          
+          // Update active sidebar link
+          document.querySelectorAll('.sidebar-link').forEach(el => el.classList.remove('active'));
+          this.classList.add('active');
+          
+          // Show corresponding panel
+          const tabId = this.getAttribute('data-tab');
+          document.querySelectorAll('.tab-panel').forEach(panel => panel.classList.remove('active'));
+          document.getElementById(tabId).classList.add('active');
+        });
+      });
+
+      // Simulate stats for demo
+      function updateStats() {
+        const cpuEl = document.getElementById('cpuUsage');
+        const ramEl = document.getElementById('ramUsage');
+        const uptimeEl = document.getElementById('uptime');
+        
+        if(cpuEl && ramEl && uptimeEl) {
+          cpuEl.textContent = Math.floor(Math.random() * 30) + '%';
+          ramEl.textContent = Math.floor(Math.random() * 40) + 30 + '%';
+          
+          // Increment uptime
+          let uptime = parseInt(uptimeEl.textContent) || 0;
+          uptimeEl.textContent = (uptime + 1) + 'm';
+        }
+      }
+      
+      // Update stats every 5 seconds
+      setInterval(updateStats, 5000);
+      updateStats();
+    });
+  </script>
+</body>
+</html>

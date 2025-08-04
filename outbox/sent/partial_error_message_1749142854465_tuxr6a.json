@@ -1,0 +1,33 @@
+{
+  "targetNumber": "628990663087@s.whatsapp.net",
+  "originalNumber": "08990663087",
+  "message": "NETFLIX SHARED 1 Bulan @rendzal\n========================================\nEmail: rendy@gmail.com\nPassword: 123\nProfile : A\nPin : 1234\nPembelian : 06 Juni 2025\nExpired : 06 Juli 2025\n=============SYARAT & KETENTUAN ============\n- 1 Profile Hanya 1 Device\n- Dilarang mengganti email / password akun.\n- Dilarang mengotak - atik data akun\n- Dilarang Menggunakan Profile Orang Lain\n- Garansi paling lambat 2x24 jam\n( Jika ketahuan melanggar syarat & ketentuan akun akan stop dan profile akan di delete tanpa refund. )\n========================================",
+  "timestamp": "2025-06-05T17:00:54.465Z",
+  "timestampMs": 1749142854465,
+  "status": "sent",
+  "createdAt": "2025-06-05T17:00:54.465Z",
+  "source": "api",
+  "sentAt": "2025-06-05T17:00:55.770Z",
+  "actualTarget": "628990663087@s.whatsapp.net",
+  "processedAt": "2025-06-05T17:00:55.770Z",
+  "uniqueKey": "08990663087_1749142854465_TkVURkxJWC",
+  "sendResult": {
+    "key": {
+      "remoteJid": "628990663087@s.whatsapp.net",
+      "fromMe": true,
+      "id": "3EB03D23AF9B8F88C547BF"
+    },
+    "message": {
+      "extendedTextMessage": {
+        "text": "NETFLIX SHARED 1 Bulan @rendzal\n========================================\nEmail: rendy@gmail.com\nPassword: 123\nProfile : A\nPin : 1234\nPembelian : 06 Juni 2025\nExpired : 06 Juli 2025\n=============SYARAT & KETENTUAN ============\n- 1 Profile Hanya 1 Device\n- Dilarang mengganti email / password akun.\n- Dilarang mengotak - atik data akun\n- Dilarang Menggunakan Profile Orang Lain\n- Garansi paling lambat 2x24 jam\n( Jika ketahuan melanggar syarat & ketentuan akun akan stop dan profile akan di delete tanpa refund. )\n========================================"
+      }
+    },
+    "messageTimestamp": "1749142855",
+    "status": "PENDING"
+  },
+  "statusUpdateError": "Failed to update database status",
+  "historyUpdateError": "Failed to update history status",
+  "databaseStatus": "failed",
+  "historyStatus": "failed",
+  "finalStatus": "sent_but_all_updates_failed"
+}
